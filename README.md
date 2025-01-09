@@ -1,8 +1,5 @@
 # jupiter-swap
-An implementation of the Jupiter Swap - here's a video walkthrough of all this code: [Integrate Jupiter Swap in 15 minutes](https://www.youtube.com/watch?v=-LzvOSgR5DU)
-
-**Jupiter Terminal vs API**
-[Jupiter Terminal](https://terminal.jup.ag/) is a UI that you can plug into your app by linking it in your HTML. The API is uses Jupiter's quote and swap endpoints and requires you build your own front-end/UI.  
+An implementation of the Jupiter Swap
 
 ## Usage
 The code in this repo is a reference imeplementation, it's not built for direct usage.
@@ -31,5 +28,3 @@ npm run dev
 
 Open `localhost:3000` in your browser. The swap is at `localhost:3000/swap`
 
-### API Implementation
-The API implementation is at [create-solana-dapp/web/app/swap/page.tsx](https://github.com/AlmostEfficient/jupiter-swap/blob/main/create-solana-dapp/web/app/swap/page.tsx). It's configured to only have 4 assets - USDC, SOL, BONK, WIF. You'll need to add your own token mint addresses, or you can use the [token list API](https://station.jup.ag/docs/token-list/token-list-api) for validated tokens.
